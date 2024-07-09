@@ -3,23 +3,29 @@ export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 export TERMINFO="/usr/share/terminfo"
 
+export HOMEBREW_NO_AUTO_UPDATE=1
+
 # Path to your oh-my-zsh installation
 export ZSH="/Users/Frank/.oh-my-zsh"
 
 # Theme
 ZSH_THEME="robbyrussell"
 
-# Oh-my-zsh initialization
-source $ZSH/oh-my-zsh.sh
-
 # Plugins
 plugins=(git autojump zsh-completions zsh-autosuggestions zsh-syntax-highlighting)
+
+# Oh-my-zsh initialization
+source $ZSH/oh-my-zsh.sh
 
 # Aliases
 alias w="webstorm ."
 alias o="open ."
 alias n="nvm"
 alias cat="bat"
+alias find="fd"
+
+alias showFiles="defaults write com.apple.finder AppleShowAllFiles YES && killall Finder"
+alias hideFiles="defaults write com.apple.finder AppleShowAllFiles NO && killall Finder"
 
 alias gcod="gco develop"
 alias gdmm="gco develop && git pull && git merge main && git push"
