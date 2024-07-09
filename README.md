@@ -6,6 +6,8 @@ ln -s ~/Config/.zshrc ~/.zshrc
 ln -s ~/Config/.gitconfig ~/.gitconfig
 
 ln -s ~/Config/.gitignore_global ~/.gitignore_global
+
+ln -s ~/Library/Mobile\ Documents/com~apple~CloudDocs ~/iCloud
 ```
 
 # 检查是否生效
