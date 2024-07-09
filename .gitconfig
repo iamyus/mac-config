@@ -1,0 +1,13 @@
+[user]
+	name = 张玉山
+	email = iamzyus@gmail.com
+[push]
+	default = current
+	autoSetupRemote = true
+[core]
+	pager = diff-so-fancy | less --tabs=4 -RFX
+	excludesfile = /Users/Frank/.gitignore_global
+[interactive]
+	diffFilter = diff-so-fancy --patch
+[init]
+	defaultBranch = main
