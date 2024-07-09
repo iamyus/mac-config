@@ -21,8 +21,10 @@ source $ZSH/oh-my-zsh.sh
 alias w="webstorm ."
 alias o="open ."
 alias n="nvm"
+alias b="bun"
+alias p="pnpm"
 alias cat="bat"
-alias find="fd"
+alias find="fd"˚
 
 alias showFiles="defaults write com.apple.finder AppleShowAllFiles YES && killall Finder"
 alias hideFiles="defaults write com.apple.finder AppleShowAllFiles NO && killall Finder"
@@ -31,15 +33,6 @@ alias gcod="gco develop"
 alias gdmm="gco develop && git pull && git merge main && git push"
 alias gcom="gco main"
 alias gmmd="gco main && git pull && git merge develop && git push"
-
-alias p="pnpm"
-alias pi="pnpm i"
-alias pd="pnpm dev"
-alias pt="pnpm test"
-alias pb="pnpm build"
-alias pa="pnpm add"
-alias pad="pnpm add -D"
-alias pag="pnpm add -g"
 
 # Proxy settings
 export https_proxy=http://127.0.0.1:7890
