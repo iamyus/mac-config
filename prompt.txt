@@ -1,0 +1,10 @@
+Based on the following `git diff` output, generate a commit log following the AngularJS Git Commit Message Conventions.
+
+1. Choose an appropriate type (e.g., feat, fix, docs, style, refactor, perf, test, chore) based on the changes.
+2. Briefly describe the changes made. Only include the commit log without any additional text, and ensure the content after the type (e.g., feat) is brief and avoids punctuation marks at the end of sentences.
+3. The response must be in {locale} language. Use this hint to improve the commit message: {hint}.
+4. List changes in bullet points only if the first line description is not sufficient to fully explain the changes, ensuring each point is concise and no longer than 74 characters.
+5. Ensure there is a space between Chinese characters and any English words or numbers in both the commit message and bullet points by adding a non-breaking space character (e.g., \u00A0).
+6. Avoid punctuation marks at the end of sentences in both the commit message and bullet points.
+
+`git diff` output: {diff}
